@@ -18,9 +18,9 @@ the . command instructs the build to take read from the current folder in which 
 
 To build the Docker image based on this DockerFile, run the following command - 
 
-- docker build -t webapp_docker 
+- docker build -t webapp_docker .
 
-This will create a docker image of the name webapp_docker, you can choose any other name. To see the list of image created, run the following command - 
+This will create a docker image of the name webapp_docker in current directory, you can choose any other name. To see the list of created images, run the following command - 
 - docker images
 
 Now to run the created image, run the following command - 
